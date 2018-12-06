@@ -20,4 +20,4 @@ i=1
 
 IFS=' ' read -r -a array <<< "$(cat credential2.txt)"
 echo "${array[1]}"
-sshpass -p "${array[0]}" ssh -t -t "${array[1]}"@$(cat credential1.txt) 'sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install slowhttptest'
+sshpass -p "${array[0]}" ssh -t -t "${array[1]}"@$(cat credential1.txt) 'sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install slowhttptest; slowhttptest -c 1000 -H -g -o apache_no_mitigation -i 10 -r 2 -t GET -u http://172.16.4.2 -x 24 -p 3 -l 120'
