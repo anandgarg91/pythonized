@@ -1,0 +1,36 @@
+[*] Simple SSH Brute Forcer 
+[*] Brute Forcing 172.16.4.2
+[*] Loaded 2 Usernames 
+[*] Loaded 4 Passwords 
+[*] Brute Force Starting 
+[#] TargetIp: 172.16.4.2 
+[#] Username: vagrant 
+[#] Password: vagrant 
+[*] Completed Brute Force.
+[*] Simple SSH Brute Forcer 
+[*] Brute Forcing 172.16.4.3
+[*] Loaded 2 Usernames 
+[*] Loaded 4 Passwords 
+[*] Brute Force Starting 
+[#] TargetIp: 172.16.4.3 
+[#] Username: vagrant 
+[#] Password: vagrant 
+[*] Completed Brute Force.
+[*] Simple SSH Brute Forcer 
+[*] Brute Forcing 172.16.4.4
+[*] Loaded 2 Usernames 
+[*] Loaded 4 Passwords 
+[*] Brute Force Starting 
+[#] TargetIp: 172.16.4.4 
+[#] Username: vagrant 
+[#] Password: vagrant 
+[*] Completed Brute Force.
+[*] Simple SSH Brute Forcer 
+[*] Brute Forcing 172.16.4.100
+[*] Loaded 2 Usernames 
+[*] Loaded 4 Passwords 
+[*] Brute Force Starting 
+[#] TargetIp: 172.16.4.100 
+[#] Username: vagrant 
+[#] Password: vagrant 
+[*] Completed Brute Force.

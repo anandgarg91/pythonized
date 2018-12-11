@@ -1,0 +1,10 @@
+# Nmap 7.70 scan initiated Tue Dec 11 10:47:43 2018 as: nmap -p 22,80 --open -oG - 172.16.4.3/24
+Host: 172.16.4.2 ()	Status: Up
+Host: 172.16.4.2 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///
+Host: 172.16.4.3 ()	Status: Up
+Host: 172.16.4.3 ()	Ports: 22/open/tcp//ssh///	Ignored State: closed (1)
+Host: 172.16.4.4 ()	Status: Up
+Host: 172.16.4.4 ()	Ports: 22/open/tcp//ssh///	Ignored State: closed (1)
+Host: 172.16.4.100 ()	Status: Up
+Host: 172.16.4.100 ()	Ports: 22/open/tcp//ssh///	Ignored State: closed (1)
+# Nmap done at Tue Dec 11 10:47:48 2018 -- 256 IP addresses (256 hosts up) scanned in 5.19 seconds
